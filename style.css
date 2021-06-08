@@ -65,7 +65,7 @@ perspective: 500px;
 .jumbotron{
   text-align: left;
   color: white;
-  padding-top: 260px;
+  padding-top: 290px;
   padding-left: 8%;
   font-family: "open sans";
   height: 1500px;
@@ -154,7 +154,7 @@ perspective: 500px;
 }
 
 .bg-for-head-nav{
-  background-image: url("https://i.ibb.co/rFsR649/background-2nd-header-background.jpg");
+  background-image: url("https://i.ibb.co/x7hHD3W/background-homepage-2.png");
   background-color: black;
   background-size: cover;
   background-attachment: fixed;
@@ -260,6 +260,9 @@ perspective: 500px;
     border-right: 2px solid rgba(255, 255, 255, 0.3);
     border-left: 2px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 5px 40px 1px black;
+  }
+  .mega-bground{
+    margin: 0;
   }
 }
 
