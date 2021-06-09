@@ -42,6 +42,7 @@ background-size: cover;
 background-color: #E81E63;
 margin: auto;
 perspective: 500px;
+overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   background-color: black;
@@ -89,7 +90,7 @@ perspective: 500px;
   color: white;
   background-color: black;
   text-align: center;
-  background-image: url("https://i.ibb.co/dMYbXsT/background-2nd-header.jpg");
+  background-image: url("https://res.cloudinary.com/dujjppf0n/image/upload/v1623228545/background-2nd-header_ft1hks.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   box-shadow: 0 0 200px 100px black;
@@ -103,7 +104,7 @@ perspective: 500px;
   font-size: 40px;
   position: relative;
   display: inline-block;
-  background-image: url("https://i.ibb.co/wCBMJK2/typewriter-animation-image.png");
+  background-image: url("https://res.cloudinary.com/dujjppf0n/image/upload/v1623228543/typewriter-animation-image_sevbck.png");
   background: transparent;
 }
 
@@ -154,7 +155,7 @@ perspective: 500px;
 }
 
 .bg-for-head-nav{
-  background-image: url("https://i.ibb.co/x7hHD3W/background-homepage-2.png");
+  background-image: url("https://res.cloudinary.com/dujjppf0n/image/upload/v1623228564/background-homepage-2_lemblj.png");
   background-color: black;
   background-size: cover;
   background-attachment: fixed;
@@ -332,7 +333,7 @@ perspective: 500px;
   width: 45px;
   border-radius: 50%;
   display: none;
-  background-image: url("https://i.ibb.co/Mf4zDCb/Vector-Up-Arrow-Icon.jpg");
+  background-image: url("https://res.cloudinary.com/dujjppf0n/image/upload/v1623228549/Vector-Up-Arrow-Icon_klwsnl.jpg");
   filter: brightness(1.75);
   background-repeat: no-repeat;
   background-size: cover;
@@ -533,7 +534,7 @@ html {
 
 
 .background-image-paragraph-structure{
-  background-image: url("https://i.ibb.co/s50Q6Mr/paragraph-structure-background-img.png");
+  background-image: url("https://res.cloudinary.com/dujjppf0n/image/upload/v1623228571/paragraph-structure-background-img_ttctyg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -850,6 +851,9 @@ label {
   .claims-notice{
     font-size: 25px;
   }
+  .clear-header-text{
+    font-size: 100px;
+  }
 }
 @media all and (max-width:580px){
   .claims-notice{
@@ -859,7 +863,7 @@ label {
   font-size: 37px;
 }
 .clear-header-text{
-  font-size: 140px;
+  font-size: 80px;
 }
 }
 
@@ -902,6 +906,9 @@ label {
    height: 70px;
    width: 250px;
  }
+ .clear-header-text{
+  font-size: 100px;
+}
 }
 
 @media all and (max-width:650px){
@@ -1136,5 +1143,15 @@ label {
   .center-text-explainations{
     font-size: 120px;
     margin-top: 125px;
+  }
+}
+@media all and (max-width:600px){
+  .clear-header-text{
+    font-size: 90px;
+  }
+}
+@media all and (max-width:480px){
+  .clear-header-text{
+    font-size: 70px;
   }
 }
