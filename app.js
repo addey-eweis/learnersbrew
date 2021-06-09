@@ -24,3 +24,9 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
   $('#navbar')[0].scrollIntoView()
 }
+
+
+ window.addEventListener("load", function () {
+  const loader = document.querySelector(".loader");
+  loader.className += " hidden";
+ });

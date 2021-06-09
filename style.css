@@ -366,7 +366,7 @@ html {
 
 .links_to_other_dropitems{
   height: 800px;
-  padding-top: 200px;
+  padding-top: 50px;
 }
 
 .cool-button-container {
@@ -533,10 +533,11 @@ html {
 
 
 .background-image-paragraph-structure{
-  background-image: url("https://static.vecteezy.com/system/resources/previews/002/058/317/original/retro-futuristic-80s-background-free-vector.jpg");
+  background-image: url("https://i.ibb.co/s50Q6Mr/paragraph-structure-background-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: #18191f;
 }
 
 .footer-logo-img{
@@ -645,7 +646,6 @@ html {
 }
 
 
-
 .facebook{
   width: 2rem;
   transition: 0.3s;
@@ -707,7 +707,7 @@ html {
 
 
 .background-image-claims{
-  background: linear-gradient(-45deg, #ee7752, #c9346d, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #360167, #6B0672, #AE1381, #CE268A, #E65C9C, #FA8CAB);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   background-attachment:fixed;
@@ -727,7 +727,7 @@ html {
 }
 
 .claims-container{
-  height: 1000px;  
+  height: 100vh;  
   padding: 0;
   margin: 0; 
   justify-content: center;
@@ -756,6 +756,7 @@ html {
   opacity: 0.7;
   color: white;
 }
+
 
 .first-letter-claim:hover{
   color: purple;
@@ -1083,4 +1084,57 @@ label {
 
 .second-section-explaination{
   display: none;
+}
+
+.loader{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000000000000000;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.loader > img{
+  width: 370px;
+}
+.loader.hidden{
+  animation: fadeout 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeout{
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+.background-image-grasp{
+  background-image: url("https://i.ibb.co/Jt8wKyn/grasp-video-new.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rhetorical-appeals-header{
+  height:100vh;
+}
+
+.center-text-explainations{
+  font-size: 150px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+  color: white;
+}
+@media all and (max-width:920px){
+  .center-text-explainations{
+    font-size: 120px;
+    margin-top: 125px;
+  }
 }
