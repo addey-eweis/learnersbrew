@@ -367,7 +367,7 @@ html {
 
 .links_to_other_dropitems{
   height: 800px;
-  padding-top: 50px;
+  padding-top: 200px;
 }
 
 .cool-button-container {
@@ -890,7 +890,7 @@ label {
   flex-direction:row;
   font-family: 'Cyber', sans-serif;
   justify-content: center;
-  margin-top: 450px;
+  margin-top: 300px;
 }
 .cyber-punk-btn-container a{
   align-items: center;
@@ -1154,4 +1154,15 @@ label {
   .clear-header-text{
     font-size: 70px;
   }
+}
+
+
+
+.cyber-punk-btn-container-introduction-conclusion{
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  font-family: 'Cyber', sans-serif;
+  justify-content: center;
+  margin-top: 480px;
 }
