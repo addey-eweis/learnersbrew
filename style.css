@@ -1089,9 +1089,6 @@ label {
   --primary-hue: 260;
 }
 
-.second-section-explaination{
-  display: none;
-}
 
 .loader{
   position: fixed;
@@ -1165,4 +1162,9 @@ label {
   font-family: 'Cyber', sans-serif;
   justify-content: center;
   margin-top: 480px;
+}
+
+.second-section-explaination{
+  height: 10000px;
+  background-color: white;
 }
