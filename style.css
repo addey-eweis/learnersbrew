@@ -1845,3 +1845,17 @@ background-color: #240046;
 .p-in-hooks-border{
   border-bottom: 5px solid #fff;
 }
+
+.crash-picture-toothpaste{
+  background-image: url("ad-toothpaste.png");
+  background-size: 80% 70%;
+}
+
+.questions-to-ask-5-hooks-explanation-size-height{
+  padding-top: 30px;
+  height: 85vh;
+}
+
+.questions-to-ask-5-hooks-explanation-size-height-logos{
+  height: 50vh;
+}
