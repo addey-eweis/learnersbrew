@@ -1726,7 +1726,7 @@ svg text {
   padding: 0px 25px 0;
   height: 70vh;
   padding-bottom: 2px;
-  background-image: url(website-background.jpg);
+  background-image: url("https://res.cloudinary.com/dujjppf0n/image/upload/v1623393264/website-background_kqlfel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -1776,6 +1776,10 @@ text-transform: capitalize;
   font-weight: 100;
 }
 
+.body-hooks-explaination-font p{
+  font-size: 35px;
+}
+
 .mega-bg-hooks-explaination{
   background-color: #1b263b;
   height: 400vh;
@@ -1805,4 +1809,39 @@ text-transform: capitalize;
 background-image: none;
 background-attachment: none;
 background-color: #240046;
+}
+
+
+.bookshelf-img img{
+  width: 1000px;
+  border: 5px solid #E81E63;
+}
+
+.bookshelf-img{
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.questions-to-ask-5-hooks-explanation-size{
+  height: 90vh;
+}
+
+.text-row-color{
+  color: black;
+  background-color: white;
+}
+
+
+.text-row-color span{
+  background-color: yellow;
+}
+
+
+.container-hooks-explaination-size{
+  height:800vh;
+}
+
+.p-in-hooks-border{
+  border-bottom: 5px solid #fff;
 }
